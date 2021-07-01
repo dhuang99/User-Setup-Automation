@@ -7,7 +7,7 @@ FORMAT FOR RENAMING ASSET FORM SCANS: [FirstName] [LastName] [Item] Asset Form (
 ITEM: Laptop, iPhone, iPad Pro, iPad Air, Monitor, Android, Cradlepoint, etc.
 
 EXAMPLES:
-	Daniel Huang Laptop Asset Form (5490) <-- for Latitude 5490
+	Daniel Huang Laptop Asset Form (5490) <-- for Latitude 5490 \n
 	Daniel Huang iPhone Asset Form (6s) <-- for iPhone 6s
 	Daniel Huang iPad Pro Asset Form (10.5) <-- for iPad Pro 10.5"
 	Daniel Huang Monitor Asset Form (E5470) <-- for monitors you may not even be able to find the model on support.dell.com. In that case just don't include the parentheses. 
