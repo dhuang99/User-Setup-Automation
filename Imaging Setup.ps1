@@ -4,8 +4,9 @@
 ###########################################################################################
 try {
     write-output "Connecting to Wifi..." 
-    & "\\....cmd"
-    & "\\...vbs"
+    #& "\\....cmd"
+    #& "\\...vbs"
+    Start-Sleep -Seconds 3
    
     write-host "Connected to Wifi!" -ForegroundColor Green
     
@@ -22,7 +23,8 @@ pause
 ###########################################################################################
 write-output "`n`n`n`n`nLaunching App Administrator...`n"
 
-& "C:\Program Files\App..."
+#& "C:\Program Files\App..."
+Start-Sleep -Seconds 3
 
 write-output "Please click on to Tools > Register to register the device"
 write-output "Then please go to the tab and uncheck 'Display PDF in Internet Explorer' `n"
@@ -61,13 +63,14 @@ pause
 ###########################################################################################
 try {
     write-output "`n`n`n`n`nMoving 'Rockville Printers', 'Help Desk Remote Support', and 'Win 10 Welcome Packet' to Public Desktop"
-
-    if (test-path "\\davisconstruction.com\root\Installs\Printer Drivers") {
-        Copy-Item "\\Print link" "C:\Users\Public\Desktop"
-        Copy-Item "\\Print link" "C:\Users\Public\Desktop"
-        Copy-Item "\\Print link" "C:\Users\Public\Desktop"
-        write-host "Successfully copied all files!" -ForegroundColor Green
-    }
+    
+    #if (test-path "\\davisconstruction.com\root\Installs\Printer Drivers") {
+    #    Copy-Item "\\Print link" "C:\Users\Public\Desktop"
+    #    Copy-Item "\\Print link" "C:\Users\Public\Desktop"
+    #    Copy-Item "\\Print link" "C:\Users\Public\Desktop"
+    #    write-host "Successfully copied all files!" -ForegroundColor Green
+    #}
+    Start-Sleep -Seconds 3
 } catch {
     Write-Host "An error occurred:" -ForegroundColor Red
     Write-Host $_ -ForegroundColor Red
