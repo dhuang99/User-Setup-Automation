@@ -30,8 +30,7 @@ I did not want to spend so much time doing boring manual work, so I made this sc
 
 ## Getting Started
 While the script will likely not prove much use as it was specific to the company's imaging process, you can download it and check it out. 
-</br> </br>
-***I highly recommend against running this code as it will make unwanted changes to some settings on your computer.***
+<p align="center"><B><i>I highly recommend against running this code as it will make unwanted changes to some settings on your computer.</B></i></p>
 
 ### Prerequisites
 You need to run this script on a Windows 10 machine. There should be no other prerequisites as I use no other third party packages. I have not tested whether it is backwards compatible with previous versions of Windows.
